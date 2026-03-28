@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="iris2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#90B088"/>
+      <stop offset="100%" stop-color="#80B0A8"/>
+    </linearGradient>
+    <linearGradient id="lid2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C48E8E"/>
+      <stop offset="50%" stop-color="#D8CCBC"/>
+      <stop offset="100%" stop-color="#C8A468"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="256" height="256" rx="48" fill="#1F1B22"/>
+  <!-- Clip iris/pupil to the visible part of the eye (below the lid) -->
+  <clipPath id="eyeVisible2">
+    <path d="M 40 120 Q 90 108 128 105 Q 166 108 216 120 Q 128 175 40 120 Z"/>
+  </clipPath>
+  <!-- Eye white (almond shape) -->
+  <path d="M 40 120 Q 128 60 216 120 Q 128 180 40 120 Z" fill="#2A2630"/>
+  <!-- Iris - clipped so it doesn't poke above the lid -->
+  <circle cx="128" cy="125" r="30" fill="url(#iris2)" clip-path="url(#eyeVisible2)"/>
+  <!-- Pupil - also clipped -->
+  <circle cx="128" cy="125" r="13" fill="#1F1B22" clip-path="url(#eyeVisible2)"/>
+  <!-- Pupil highlight -->
+  <circle cx="121" cy="119" r="4" fill="#D8CCBC" opacity="0.7" clip-path="url(#eyeVisible2)"/>
+  <!-- Cover the top of the eye with the lid -->
+  <path d="M 36 100 Q 128 55 220 100 L 220 120 Q 166 108 128 105 Q 90 108 40 120 Z" fill="#1F1B22"/>
+  <!-- Lid edge line (the visible droopy lid) -->
+  <path d="M 40 120 Q 90 108 128 105 Q 166 108 216 120" fill="none" stroke="url(#lid2)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Lower lid line -->
+  <path d="M 40 120 Q 128 175 216 120" fill="none" stroke="#B0A498" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <!-- Text -->
+  <text x="128" y="200" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="28" fill="#D8CCBC" letter-spacing="4">EyeRest</text>
+</svg>
