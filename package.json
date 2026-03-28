@@ -60,6 +60,16 @@
         "label": "EyeRest BluBlock Light",
         "uiTheme": "vs",
         "path": "./themes/eyerest-amber-light-color-theme.json"
+      },
+      {
+        "label": "EyeRest Dusk Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eyerest-dusk-dark-color-theme.json"
+      },
+      {
+        "label": "EyeRest Dusk Light",
+        "uiTheme": "vs",
+        "path": "./themes/eyerest-dusk-light-color-theme.json"
       }
     ]
   }
