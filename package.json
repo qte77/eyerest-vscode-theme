@@ -1,0 +1,65 @@
+{
+  "name": "eyerest-vscode-theme",
+  "displayName": "EyeRest Theme",
+  "description": "Eye-friendly VS Code themes for long sessions. Original palettes grounded in color science.",
+  "version": "0.1.0",
+  "publisher": "qte77",
+  "author": {
+    "name": "qte77"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "light theme",
+    "eye-friendly",
+    "low-fatigue",
+    "warm",
+    "eye rest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qte77/eyerest-vscode-theme"
+  },
+  "license": "Apache-2.0",
+  "contributes": {
+    "themes": [
+      {
+        "label": "EyeRest Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eyerest-dark-color-theme.json"
+      },
+      {
+        "label": "EyeRest Light",
+        "uiTheme": "vs",
+        "path": "./themes/eyerest-light-color-theme.json"
+      },
+      {
+        "label": "EyeRest Green Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eyerest-green-dark-color-theme.json"
+      },
+      {
+        "label": "EyeRest Green Light",
+        "uiTheme": "vs",
+        "path": "./themes/eyerest-green-light-color-theme.json"
+      },
+      {
+        "label": "EyeRest Amber Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eyerest-amber-dark-color-theme.json"
+      },
+      {
+        "label": "EyeRest Amber Light",
+        "uiTheme": "vs",
+        "path": "./themes/eyerest-amber-light-color-theme.json"
+      }
+    ]
+  }
+}
