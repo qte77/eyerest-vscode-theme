@@ -2,6 +2,16 @@
 
 Eye-friendly VS Code themes for long sessions. Original palettes grounded in color science. Zero blue light in all accent colors.
 
+## Install
+
+```bash
+# From marketplace
+ext install qte77.eyerest-vscode-theme
+
+# From .vsix
+code --install-extension eyerest-vscode-theme-0.1.0.vsix
+```
+
 ## Variants
 
 | Theme | Background | Text | Use case |
@@ -66,16 +76,6 @@ Eye-friendly VS Code themes for long sessions. Original palettes grounded in col
 - Sheppard & Wolffsohn (2018) "Digital eye strain: prevalence, measurement and amelioration" *BMJ Open Ophthalmology* 3 — [PMC6020759](https://pmc.ncbi.nlm.nih.gov/articles/PMC6020759/)
 - Spitschan et al. (2023) "Effects of calibrated blue-yellow changes in light on the human circadian clock" *Nature Human Behaviour* — [doi:10.1038/s41562-023-01791-7](https://www.nature.com/articles/s41562-023-01791-7)
 - Somers, A. "APCA Accessible Perceptual Contrast Algorithm" (WCAG 3.0 candidate) — [APCA docs](https://git.apcacontrast.com/documentation/WhyAPCA.html)
-
-## Install
-
-```bash
-# From marketplace
-ext install qte77.eyerest-vscode-theme
-
-# From .vsix
-code --install-extension eyerest-vscode-theme-0.1.0.vsix
-```
 
 Then `Ctrl+K Ctrl+T` to pick a variant.
 
