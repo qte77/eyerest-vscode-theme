@@ -4,6 +4,7 @@
   "description": "Eye-friendly VS Code themes for long sessions. Original palettes grounded in color science.",
   "version": "0.1.0",
   "publisher": "qte77",
+  "icon": "assets/images/logo.png",
   "author": {
     "name": "qte77"
   },
