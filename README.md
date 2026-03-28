@@ -12,6 +12,8 @@ Eye-friendly VS Code themes for long sessions. Original palettes grounded in col
 | **EyeRest Green Light** | Yellow-green `#EEF0E0` | Dark green `#2A4A2A` | Green lovers, bright rooms |
 | **EyeRest BluBlock Dark** | Deep umber `#1A1208` | Warm cream `#E8D5B0` | Blue-filter goggles |
 | **EyeRest BluBlock Light** | Parchment `#F5ECD8` | Dark brown `#3D2E18` | Blue-filter goggles |
+| **EyeRest Dusk Dark** | Plum-gray `#1F1B22` | Warm cream `#D8CCBC` | Earth-tone accents |
+| **EyeRest Dusk Light** | Pale sage `#EAECE2` | Warm charcoal `#2C2622` | Earth-tone accents |
 
 ### EyeRest Dark
 
@@ -37,6 +39,14 @@ Eye-friendly VS Code themes for long sessions. Original palettes grounded in col
 
 ![EyeRest BluBlock Light](assets/images/eyerest-amber-light-screenshot.png)
 
+### EyeRest Dusk Dark
+
+![EyeRest Dusk Dark](assets/images/eyerest-dusk-dark-screenshot.png)
+
+### EyeRest Dusk Light
+
+![EyeRest Dusk Light](assets/images/eyerest-dusk-light-screenshot.png)
+
 ## Design Principles
 
 - **Zero blue in accents** — blue focuses ~1D in front of the retina (chromatic aberration), stimulates the slowest cone pathway, and disrupts circadian rhythm via melanopsin (peak 480nm)
@@ -44,7 +54,8 @@ Eye-friendly VS Code themes for long sessions. Original palettes grounded in col
 - **Desaturated tones** — saturated colors fatigue color-opponent channels (L-M, S-(L+M)); muted variants reduce chromatic adaptation
 - **No pure black/white** — avoids halation and APCA contrast miscalculation for dark pairs
 - **Contrast 5:1-10:1** — above WCAG AA minimum, below fatigue-inducing extremes
-- **BluBlock variants** — zero blue component (B≤30 RGB) in every color; all syntax remains distinguishable through 100% amber lenses
+- **BluBlock variants** — zero blue component (B<=30 RGB) in every color; all syntax remains distinguishable through 100% amber lenses
+- **Dusk variants** — earth-tone accents (dusty rose, sage, amber, lavender, teal) on plum-gray/sage backgrounds
 - **Semantic highlighting** — full LSP token support
 
 ## Sources
