@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "EyeRest Amber Light",
+  "name": "EyeRest BluBlock Light",
   "type": "light",
   "semanticHighlighting": true,
   "colors": {

@@ -52,12 +52,12 @@
         "path": "./themes/eyerest-green-light-color-theme.json"
       },
       {
-        "label": "EyeRest Amber Dark",
+        "label": "EyeRest BluBlock Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/eyerest-amber-dark-color-theme.json"
       },
       {
-        "label": "EyeRest Amber Light",
+        "label": "EyeRest BluBlock Light",
         "uiTheme": "vs",
         "path": "./themes/eyerest-amber-light-color-theme.json"
       }
