@@ -2,7 +2,7 @@
   "name": "eyerest-vscode-theme",
   "displayName": "EyeRest Theme",
   "description": "Eye-friendly VS Code themes for long sessions. Original palettes grounded in color science.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "qte77",
   "icon": "assets/logos/logo.png",
   "author": {

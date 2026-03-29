@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+---
+
+## [0.2.0] - 2026-03-29
+
 ### Added
 
 - Makefile with `package`, `install`, `png`, `clean` targets for vsix builds
@@ -18,7 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Direct `curl` install from GitHub Releases in README
 - Build section in README
 - Bump and Release GHA workflow with vsix artifact upload
-- `.bumpversion.toml` for version management
+- Dependabot for npm + GitHub Actions
+- CodeQL security scanning
 
 ### Changed
 
@@ -28,13 +33,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Darkened Green Dark foreground (`#A8D4A2` → `#8CB888`), strengthened hover effects
 - Split `assets/images/` into `assets/logos/` and `assets/screenshots/`
 - Makefile version derived dynamically from `package.json`
+- Bumpversion config in `pyproject.toml` (was `.bumpversion.toml`)
 
 ### Removed
 
 - `.vscode/launch.json` (unused for theme extension)
 - Static `README.vsix.md` (now auto-generated)
-
----
 
 ## [0.1.0] - 2026-03-28
 
