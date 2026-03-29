@@ -74,7 +74,7 @@ jobs:
           BASE_TREE=$(gh api "repos/$REPO/git/commits/$BASE_SHA" --jq '.tree.sha')
 
           TREE_ENTRIES="[]"
-          for file in $(git diff --name-only); do
+          for file in $(git diff --name-only -- package.json pyproject.toml README.md CHANGELOG.md); do
             CONTENT=$(base64 -w0 "$file")
             BLOB_SHA=$(gh api "repos/$REPO/git/blobs" -f content="$CONTENT" -f encoding=base64 --jq '.sha')
             TREE_ENTRIES=$(echo "$TREE_ENTRIES" | jq --arg path "$file" --arg sha "$BLOB_SHA" \
