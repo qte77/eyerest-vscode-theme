@@ -95,8 +95,6 @@ jobs:
           gh api "repos/$REPO/git/refs/heads/$BRANCH" -X PATCH -f sha="$COMMIT_SHA" -F force=true 2>/dev/null \
             || gh api "repos/$REPO/git/refs" -f ref="refs/heads/$BRANCH" -f sha="$COMMIT_SHA"
 
-          gh api "repos/$REPO/git/refs" -f ref="refs/tags/v$VERSION" -f sha="$COMMIT_SHA"
-
           echo "commit_sha=$COMMIT_SHA" >> $GITHUB_OUTPUT
 
       - name: Create PR
@@ -125,6 +123,7 @@ jobs:
         run: |
           gh release create "$TAG" \
             --repo "$REPO" \
+            --target "${{ steps.signed_commit.outputs.commit_sha }}" \
             --generate-notes \
             "${{ steps.vsix.outputs.vsix_path }}#${{ steps.vsix.outputs.vsix_name }}"
           MAJOR="${TAG%%.*}"
