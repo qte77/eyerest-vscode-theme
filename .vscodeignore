@@ -5,6 +5,5 @@
 vsix/**
 *.vsix
 README.md
-README.vsix.md
 Makefile
 node_modules/**

@@ -20,28 +20,28 @@ make install
 <details>
   <summary>EyeRest Dark / Light — warm umber and parchment</summary>
   <img alt="EyeRest screenshot"
-    src="assets/images/eyerest-screenshot.svg"
+    src="assets/screenshots/eyerest-screenshot.svg"
     width="100%">
 </details>
 
 <details>
   <summary>EyeRest Green Dark / Light — deep forest and yellow-green</summary>
   <img alt="EyeRest Green screenshot"
-    src="assets/images/eyerest-green-screenshot.svg"
+    src="assets/screenshots/eyerest-green-screenshot.svg"
     width="100%">
 </details>
 
 <details>
   <summary>EyeRest BluBlock Dark / Light — deep umber and parchment</summary>
   <img alt="EyeRest BluBlock screenshot"
-    src="assets/images/eyerest-amber-screenshot.svg"
+    src="assets/screenshots/eyerest-amber-screenshot.svg"
     width="100%">
 </details>
 
 <details>
   <summary>EyeRest Dusk Dark / Light — plum-gray and pale sage</summary>
   <img alt="EyeRest Dusk screenshot"
-    src="assets/images/eyerest-dusk-screenshot.svg"
+    src="assets/screenshots/eyerest-dusk-screenshot.svg"
     width="100%">
 </details>
 
@@ -55,6 +55,15 @@ make install
 | **EyeRest BluBlock Light** | Parchment `#F5ECD8` | Dark brown `#3D2E18` | Blue-filter goggles |
 | **EyeRest Dusk Dark** | Plum-gray `#1F1B22` | Warm cream `#D8CCBC` | Earth-tone accents |
 | **EyeRest Dusk Light** | Pale sage `#EAECE2` | Warm charcoal `#2C2622` | Earth-tone accents |
+
+## Build
+
+```bash
+make png       # Convert screenshot SVGs to PNGs (requires librsvg2-bin)
+make package   # Build .vsix (generates vsix README with PNGs, packages extension)
+make install   # Build + install locally
+make clean     # Remove vsix/ build artifacts
+```
 
 ## Design Principles
 
