@@ -25,6 +25,11 @@ search = "eyerest-vscode-theme-{current_version}.vsix"
 replace = "eyerest-vscode-theme-{new_version}.vsix"
 
 [[tool.bumpversion.files]]
+filename = "README.md"
+search = "version-{current_version}-58f4c2"
+replace = "version-{new_version}-58f4c2"
+
+[[tool.bumpversion.files]]
 filename = "CHANGELOG.md"
 search = "## [Unreleased]\n\n---"
 replace = "## [Unreleased]\n\n---\n\n## [{new_version}] - {now:%Y-%m-%d}"

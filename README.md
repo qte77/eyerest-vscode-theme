@@ -1,6 +1,12 @@
+<!-- markdownlint-disable MD033 -->
+
 # EyeRest Theme
 
 Eye-friendly VS Code themes for long sessions. Original palettes grounded in color science. Zero blue light in all accent colors.
+
+[![License](https://img.shields.io/badge/license-Apache--2.0-58f4c2.svg)](LICENSE)
+![Version](https://img.shields.io/badge/version-0.2.0-58f4c2.svg)
+[![Bump and Release](https://github.com/qte77/eyerest-vscode-theme/actions/workflows/bump-and-release.yml/badge.svg)](https://github.com/qte77/eyerest-vscode-theme/actions/workflows/bump-and-release.yml)
 
 ## Install
 
