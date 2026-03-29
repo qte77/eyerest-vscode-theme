@@ -5,7 +5,7 @@
 Eye-friendly VS Code themes for long sessions. Original palettes grounded in color science. Zero blue light in all accent colors.
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-58f4c2.svg)](LICENSE)
-![Version](https://img.shields.io/badge/version-0.2.0-58f4c2.svg)
+![Version](https://img.shields.io/badge/version-0.3.0-58f4c2.svg)
 [![Bump and Release](https://github.com/qte77/eyerest-vscode-theme/actions/workflows/bump-and-release.yml/badge.svg)](https://github.com/qte77/eyerest-vscode-theme/actions/workflows/bump-and-release.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/qte77/eyerest-vscode-theme/badge)](https://www.codefactor.io/repository/github/qte77/eyerest-vscode-theme)
 
@@ -13,10 +13,10 @@ Eye-friendly VS Code themes for long sessions. Original palettes grounded in col
 
 ```bash
 # Direct install from GitHub Releases
-curl -fsSL https://github.com/qte77/eyerest-vscode-theme/releases/latest/download/eyerest-vscode-theme-0.2.0.vsix -o /tmp/eyerest.vsix && code --install-extension /tmp/eyerest.vsix
+curl -fsSL https://github.com/qte77/eyerest-vscode-theme/releases/latest/download/eyerest-vscode-theme-0.3.0.vsix -o /tmp/eyerest.vsix && code --install-extension /tmp/eyerest.vsix
 
 # From downloaded .vsix
-code --install-extension eyerest-vscode-theme-0.2.0.vsix
+code --install-extension eyerest-vscode-theme-0.3.0.vsix
 
 # From source
 make install
