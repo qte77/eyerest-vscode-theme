@@ -25,37 +25,33 @@ code --install-extension eyerest-vscode-theme-0.1.0.vsix
 | **EyeRest Dusk Dark** | Plum-gray `#1F1B22` | Warm cream `#D8CCBC` | Earth-tone accents |
 | **EyeRest Dusk Light** | Pale sage `#EAECE2` | Warm charcoal `#2C2622` | Earth-tone accents |
 
-### EyeRest Dark
+<details>
+  <summary>EyeRest Dark / Light — warm umber and parchment</summary>
+  <img alt="EyeRest screenshot"
+    src="assets/images/eyerest-screenshot.svg"
+    width="100%">
+</details>
 
-![EyeRest Dark](assets/images/eyerest-dark-screenshot.png)
+<details>
+  <summary>EyeRest Green Dark / Light — deep forest and yellow-green</summary>
+  <img alt="EyeRest Green screenshot"
+    src="assets/images/eyerest-green-screenshot.svg"
+    width="100%">
+</details>
 
-### EyeRest Light
+<details>
+  <summary>EyeRest BluBlock Dark / Light — deep umber and parchment</summary>
+  <img alt="EyeRest BluBlock screenshot"
+    src="assets/images/eyerest-amber-screenshot.svg"
+    width="100%">
+</details>
 
-![EyeRest Light](assets/images/eyerest-light-screenshot.png)
-
-### EyeRest Green Dark
-
-![EyeRest Green Dark](assets/images/eyerest-green-dark-screenshot.png)
-
-### EyeRest Green Light
-
-![EyeRest Green Light](assets/images/eyerest-green-light-screenshot.png)
-
-### EyeRest BluBlock Dark
-
-![EyeRest BluBlock Dark](assets/images/eyerest-amber-dark-screenshot.png)
-
-### EyeRest BluBlock Light
-
-![EyeRest BluBlock Light](assets/images/eyerest-amber-light-screenshot.png)
-
-### EyeRest Dusk Dark
-
-![EyeRest Dusk Dark](assets/images/eyerest-dusk-dark-screenshot.png)
-
-### EyeRest Dusk Light
-
-![EyeRest Dusk Light](assets/images/eyerest-dusk-light-screenshot.png)
+<details>
+  <summary>EyeRest Dusk Dark / Light — plum-gray and pale sage</summary>
+  <img alt="EyeRest Dusk screenshot"
+    src="assets/images/eyerest-dusk-screenshot.svg"
+    width="100%">
+</details>
 
 ## Design Principles
 
