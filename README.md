@@ -7,6 +7,7 @@ Eye-friendly VS Code themes for long sessions. Original palettes grounded in col
 [![License](https://img.shields.io/badge/license-Apache--2.0-58f4c2.svg)](LICENSE)
 ![Version](https://img.shields.io/badge/version-0.2.0-58f4c2.svg)
 [![Bump and Release](https://github.com/qte77/eyerest-vscode-theme/actions/workflows/bump-and-release.yml/badge.svg)](https://github.com/qte77/eyerest-vscode-theme/actions/workflows/bump-and-release.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/qte77/eyerest-vscode-theme/badge)](https://www.codefactor.io/repository/github/qte77/eyerest-vscode-theme)
 
 ## Install
 
