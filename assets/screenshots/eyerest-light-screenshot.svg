@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="'Consolas', 'Courier New', monospace">
+  <defs>
+    <style>
+      .code { font-size: 12px; }
+      .sidebar-text { font-size: 11px; }
+      .tab-text { font-size: 11px; }
+      .status-text { font-size: 11px; }
+      .terminal-text { font-size: 11px; }
+      .titlebar-text { font-size: 11px; }
+      .line-num { font-size: 12px; }
+      .activity-icon { font-size: 14px; }
+      .comment { font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="30" fill="#E2DEC8"/>
+  <line x1="0" y1="30" x2="900" y2="30" stroke="#C8C4B060" stroke-width="1"/>
+  <text x="450" y="19" text-anchor="middle" class="titlebar-text" fill="#686048">app.ts — eyerest-vscode-theme</text>
+  <!-- Window controls -->
+  <circle cx="16" cy="15" r="5" fill="#884830" opacity="0.8"/>
+  <circle cx="34" cy="15" r="5" fill="#8A7018" opacity="0.8"/>
+  <circle cx="52" cy="15" r="5" fill="#4A6818" opacity="0.8"/>
+
+  <!-- Activity bar -->
+  <rect x="0" y="30" width="40" fill="#E2DEC8" height="540"/>
+  <line x1="40" y1="30" x2="40" y2="570" stroke="#C8C4B060" stroke-width="1"/>
+  <!-- File icon -->
+  <rect x="12" y="45" width="16" height="16" rx="2" fill="none" stroke="#2C2818" stroke-width="1.2"/>
+  <line x1="16" y1="49" x2="24" y2="49" stroke="#2C2818" stroke-width="1"/>
+  <line x1="16" y1="53" x2="22" y2="53" stroke="#2C2818" stroke-width="1"/>
+  <!-- Search icon -->
+  <circle cx="19" cy="85" r="6" fill="none" stroke="#686048" stroke-width="1.2"/>
+  <line x1="23" y1="89" x2="27" y2="93" stroke="#686048" stroke-width="1.2"/>
+  <!-- Git icon -->
+  <circle cx="20" cy="115" r="3" fill="none" stroke="#686048" stroke-width="1.2"/>
+  <circle cx="20" cy="125" r="3" fill="none" stroke="#686048" stroke-width="1.2"/>
+  <line x1="20" y1="118" x2="20" y2="122" stroke="#686048" stroke-width="1.2"/>
+  <!-- Extensions icon -->
+  <rect x="13" y="142" width="7" height="7" fill="none" stroke="#686048" stroke-width="1.2"/>
+  <rect x="22" y="142" width="7" height="7" fill="none" stroke="#686048" stroke-width="1.2"/>
+  <rect x="13" y="151" width="7" height="7" fill="none" stroke="#686048" stroke-width="1.2"/>
+  <rect x="22" y="151" width="7" height="7" fill="none" stroke="#686048" stroke-width="1.2"/>
+
+  <!-- Sidebar -->
+  <rect x="40" y="30" width="180" height="540" fill="#E2DEC8"/>
+  <line x1="220" y1="30" x2="220" y2="570" stroke="#C8C4B060" stroke-width="1"/>
+  <!-- Sidebar header -->
+  <text x="52" y="50" class="sidebar-text" fill="#686048" font-weight="bold" font-size="10" letter-spacing="1">EXPLORER</text>
+  <!-- Folder: src -->
+  <text x="56" y="72" class="sidebar-text" fill="#2C2818">&#9662; src</text>
+  <!-- Files -->
+  <text x="72" y="90" class="sidebar-text" fill="#8A7018">&#9724;</text>
+  <text x="84" y="90" class="sidebar-text" fill="#2C2818">app.ts</text>
+  <text x="72" y="108" class="sidebar-text" fill="#4A6818">&#9724;</text>
+  <text x="84" y="108" class="sidebar-text" fill="#686048">utils.ts</text>
+  <text x="72" y="126" class="sidebar-text" fill="#587818">&#9724;</text>
+  <text x="84" y="126" class="sidebar-text" fill="#686048">types.ts</text>
+
+  <!-- Tab bar -->
+  <rect x="220" y="30" width="680" height="30" fill="#E2DEC8"/>
+  <line x1="220" y1="60" x2="900" y2="60" stroke="#C8C4B060" stroke-width="1"/>
+  <!-- Active tab -->
+  <rect x="220" y="30" width="110" height="30" fill="#ECE8D8"/>
+  <line x1="220" y1="30" x2="330" y2="30" stroke="#8A7018" stroke-width="2"/>
+  <text x="240" y="50" class="tab-text" fill="#2C2818">app.ts</text>
+  <text x="318" y="50" class="tab-text" fill="#887858" font-size="9">x</text>
+  <!-- Inactive tab -->
+  <rect x="330" y="30" width="110" height="30" fill="#E2DEC8"/>
+  <text x="350" y="50" class="tab-text" fill="#887858">utils.ts</text>
+  <text x="428" y="50" class="tab-text" fill="#887858" font-size="9">x</text>
+
+  <!-- Editor background -->
+  <rect x="220" y="60" width="680" height="370" fill="#ECE8D8"/>
+
+  <!-- Active line highlight on line 10 -->
+  <rect x="220" y="232" width="680" height="18" fill="#E2DEC8" opacity="0.5"/>
+
+  <!-- Line numbers and code -->
+  <!-- Line 1: import { UserConfig } from "./types"; -->
+  <text x="240" y="80" class="line-num" fill="#C0B8A0">1</text>
+  <text x="264" y="80" class="code" fill="#4A6818">import</text>
+  <text x="306" y="80" class="code" fill="#686048"> { </text>
+  <text x="324" y="80" class="code" fill="#587818">UserConfig</text>
+  <text x="390" y="80" class="code" fill="#686048"> } </text>
+  <text x="408" y="80" class="code" fill="#4A6818">from</text>
+  <text x="438" y="80" class="code" fill="#686048"> </text>
+  <text x="444" y="80" class="code" fill="#4A6818">"./types"</text>
+  <text x="504" y="80" class="code" fill="#686048">;</text>
+
+  <!-- Line 2: empty -->
+  <text x="240" y="98" class="line-num" fill="#C0B8A0">2</text>
+
+  <!-- Line 3: // Initialize application with config -->
+  <text x="240" y="116" class="line-num" fill="#C0B8A0">3</text>
+  <text x="264" y="116" class="code comment" fill="#807048">// Initialize application with config</text>
+
+  <!-- Line 4: interface AppState { -->
+  <text x="240" y="134" class="line-num" fill="#C0B8A0">4</text>
+  <text x="264" y="134" class="code" fill="#884830">interface</text>
+  <text x="324" y="134" class="code" fill="#587818"> AppState</text>
+  <text x="390" y="134" class="code" fill="#686048"> {</text>
+
+  <!-- Line 5:   isRunning: boolean; -->
+  <text x="240" y="152" class="line-num" fill="#C0B8A0">5</text>
+  <text x="264" y="152" class="code" fill="#2C2818">  isRunning</text>
+  <text x="336" y="152" class="code" fill="#686048">: </text>
+  <text x="348" y="152" class="code" fill="#587818">boolean</text>
+  <text x="396" y="152" class="code" fill="#686048">;</text>
+
+  <!-- Line 6:   users: Map<string, User>; -->
+  <text x="240" y="170" class="line-num" fill="#C0B8A0">6</text>
+  <text x="264" y="170" class="code" fill="#2C2818">  users</text>
+  <text x="306" y="170" class="code" fill="#686048">: </text>
+  <text x="318" y="170" class="code" fill="#587818">Map</text>
+  <text x="342" y="170" class="code" fill="#686048">&lt;</text>
+  <text x="348" y="170" class="code" fill="#587818">string</text>
+  <text x="390" y="170" class="code" fill="#686048">, </text>
+  <text x="402" y="170" class="code" fill="#587818">User</text>
+  <text x="426" y="170" class="code" fill="#686048">&gt;;</text>
+
+  <!-- Line 7:   config: UserConfig; -->
+  <text x="240" y="188" class="line-num" fill="#C0B8A0">7</text>
+  <text x="264" y="188" class="code" fill="#2C2818">  config</text>
+  <text x="312" y="188" class="code" fill="#686048">: </text>
+  <text x="324" y="188" class="code" fill="#587818">UserConfig</text>
+  <text x="390" y="188" class="code" fill="#686048">;</text>
+
+  <!-- Line 8: } -->
+  <text x="240" y="206" class="line-num" fill="#C0B8A0">8</text>
+  <text x="264" y="206" class="code" fill="#686048">}</text>
+
+  <!-- Line 9: empty -->
+  <text x="240" y="224" class="line-num" fill="#C0B8A0">9</text>
+
+  <!-- Line 10: async function startApp(config: UserConfig): Promise<void> { -->
+  <text x="233" y="242" class="line-num" fill="#686040">10</text>
+  <text x="264" y="242" class="code" fill="#884830">async</text>
+  <text x="300" y="242" class="code" fill="#884830"> function</text>
+  <text x="360" y="242" class="code" fill="#8A7018"> startApp</text>
+  <text x="420" y="242" class="code" fill="#686048">(</text>
+  <text x="426" y="242" class="code" fill="#804828">config</text>
+  <text x="468" y="242" class="code" fill="#686048">: </text>
+  <text x="480" y="242" class="code" fill="#587818">UserConfig</text>
+  <text x="546" y="242" class="code" fill="#686048">): </text>
+  <text x="564" y="242" class="code" fill="#587818">Promise</text>
+  <text x="612" y="242" class="code" fill="#686048">&lt;</text>
+  <text x="618" y="242" class="code" fill="#587818">void</text>
+  <text x="642" y="242" class="code" fill="#686048">&gt; {</text>
+
+  <!-- Line 11:   const state: AppState = { -->
+  <text x="233" y="260" class="line-num" fill="#C0B8A0">11</text>
+  <text x="264" y="260" class="code" fill="#884830">  const</text>
+  <text x="300" y="260" class="code" fill="#2C2818"> state</text>
+  <text x="336" y="260" class="code" fill="#686048">: </text>
+  <text x="348" y="260" class="code" fill="#587818">AppState</text>
+  <text x="402" y="260" class="code" fill="#686048"> = {</text>
+
+  <!-- Line 12:     isRunning: true, -->
+  <text x="233" y="278" class="line-num" fill="#C0B8A0">12</text>
+  <text x="264" y="278" class="code" fill="#2C2818">    isRunning</text>
+  <text x="348" y="278" class="code" fill="#686048">: </text>
+  <text x="360" y="278" class="code" fill="#787010">true</text>
+  <text x="390" y="278" class="code" fill="#686048">,</text>
+
+  <!-- Line 13:     users: new Map(), -->
+  <text x="233" y="296" class="line-num" fill="#C0B8A0">13</text>
+  <text x="264" y="296" class="code" fill="#2C2818">    users</text>
+  <text x="306" y="296" class="code" fill="#686048">: </text>
+  <text x="318" y="296" class="code" fill="#884830">new</text>
+  <text x="342" y="296" class="code" fill="#587818"> Map</text>
+  <text x="372" y="296" class="code" fill="#686048">(),</text>
+
+  <!-- Line 14:     config, -->
+  <text x="233" y="314" class="line-num" fill="#C0B8A0">14</text>
+  <text x="264" y="314" class="code" fill="#2C2818">    config</text>
+  <text x="312" y="314" class="code" fill="#686048">,</text>
+
+  <!-- Line 15:   }; -->
+  <text x="233" y="332" class="line-num" fill="#C0B8A0">15</text>
+  <text x="264" y="332" class="code" fill="#686048">  };</text>
+
+  <!-- Line 16:   console.log("App started", state.isRunning); -->
+  <text x="233" y="350" class="line-num" fill="#C0B8A0">16</text>
+  <text x="264" y="350" class="code" fill="#2C2818">  console</text>
+  <text x="318" y="350" class="code" fill="#686048">.</text>
+  <text x="324" y="350" class="code" fill="#8A7018">log</text>
+  <text x="342" y="350" class="code" fill="#686048">(</text>
+  <text x="348" y="350" class="code" fill="#4A6818">"App started"</text>
+  <text x="426" y="350" class="code" fill="#686048">, </text>
+  <text x="438" y="350" class="code" fill="#2C2818">state</text>
+  <text x="474" y="350" class="code" fill="#686048">.</text>
+  <text x="480" y="350" class="code" fill="#2C2818">isRunning</text>
+  <text x="546" y="350" class="code" fill="#686048">);</text>
+
+  <!-- Line 17: } -->
+  <text x="233" y="368" class="line-num" fill="#C0B8A0">17</text>
+  <text x="264" y="368" class="code" fill="#686048">}</text>
+
+  <!-- Line 18: empty -->
+  <text x="233" y="386" class="line-num" fill="#C0B8A0">18</text>
+
+  <!-- Terminal panel separator -->
+  <line x1="220" y1="430" x2="900" y2="430" stroke="#C8C4B060" stroke-width="1"/>
+
+  <!-- Terminal header -->
+  <rect x="220" y="430" width="680" height="22" fill="#E2DEC8"/>
+  <text x="232" y="445" class="terminal-text" fill="#686048" font-size="10">TERMINAL</text>
+  <line x1="220" y1="452" x2="900" y2="452" stroke="#C8C4B060" stroke-width="1"/>
+
+  <!-- Terminal body -->
+  <rect x="220" y="452" width="680" height="118" fill="#ECE8D8"/>
+  <text x="232" y="472" class="terminal-text" fill="#686048">$</text>
+  <text x="244" y="472" class="terminal-text" fill="#2C2818"> npm run dev</text>
+  <text x="232" y="490" class="terminal-text" fill="#4A6818">Server running on port 3000</text>
+  <text x="232" y="508" class="terminal-text" fill="#686048">$</text>
+  <text x="244" y="508" class="terminal-text" fill="#807048"> _</text>
+
+  <!-- Status bar -->
+  <rect x="0" y="570" width="900" height="30" fill="#E2DEC8"/>
+  <line x1="0" y1="570" x2="900" y2="570" stroke="#C8C4B060" stroke-width="1"/>
+  <!-- Git branch -->
+  <text x="12" y="589" class="status-text" fill="#686040">&#9741; main</text>
+  <!-- Line/Col -->
+  <text x="780" y="589" class="status-text" fill="#686040">Ln 10, Col 1</text>
+  <!-- Language -->
+  <text x="850" y="589" class="status-text" fill="#686040">TS</text>
+</svg>

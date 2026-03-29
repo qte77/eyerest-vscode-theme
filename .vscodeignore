@@ -2,5 +2,8 @@
 .vscode-test/**
 .gitignore
 .git/**
+vsix/**
 *.vsix
+README.md
+Makefile
 node_modules/**

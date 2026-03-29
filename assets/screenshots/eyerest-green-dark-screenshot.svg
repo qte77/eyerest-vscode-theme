@@ -46,7 +46,7 @@
   <line x1="220" y1="30" x2="220" y2="570" stroke="#2A3E2C60" stroke-width="1"/>
   <text x="52" y="48" class="sidebar-text" fill="#7AA878" font-weight="bold">EXPLORER</text>
   <!-- File tree -->
-  <text x="56" y="72" class="sidebar-text" fill="#A8D4A2">&#9660; src</text>
+  <text x="56" y="72" class="sidebar-text" fill="#8CB888">&#9660; src</text>
   <text x="72" y="90" class="sidebar-text" fill="#7CB87A">app.ts</text>
   <text x="72" y="106" class="sidebar-text" fill="#7AA878">utils.ts</text>
   <text x="72" y="122" class="sidebar-text" fill="#7AA878">types.ts</text>
@@ -60,7 +60,7 @@
   <!-- Active tab -->
   <rect x="220" y="30" width="120" height="30" fill="#0C1610"/>
   <line x1="220" y1="30" x2="340" y2="30" stroke="#7CB87A" stroke-width="2"/>
-  <text x="255" y="49" class="tab-text" fill="#A8D4A2">app.ts</text>
+  <text x="255" y="49" class="tab-text" fill="#8CB888">app.ts</text>
   <!-- Inactive tab -->
   <rect x="340" y="30" width="120" height="30" fill="#12201A"/>
   <line x1="340" y1="30" x2="340" y2="60" stroke="#2A3E2C60" stroke-width="1"/>
@@ -95,14 +95,14 @@
 
   <!-- Line 5:   isRunning: boolean; -->
   <text x="235" y="148" class="line-num" fill="#3A5A3C">5</text>
-  <text x="262" y="148" class="code" fill="#A8D4A2">  isRunning</text>
+  <text x="262" y="148" class="code" fill="#8CB888">  isRunning</text>
   <text x="340" y="148" class="code" fill="#7AA878">: </text>
   <text x="354" y="148" class="code" fill="#B8D880">boolean</text>
   <text x="404" y="148" class="code" fill="#7AA878">;</text>
 
   <!-- Line 6:   users: Map<string, User>; -->
   <text x="235" y="165" class="line-num" fill="#3A5A3C">6</text>
-  <text x="262" y="165" class="code" fill="#A8D4A2">  users</text>
+  <text x="262" y="165" class="code" fill="#8CB888">  users</text>
   <text x="304" y="165" class="code" fill="#7AA878">: </text>
   <text x="318" y="165" class="code" fill="#B8D880">Map</text>
   <text x="340" y="165" class="code" fill="#7AA878">&lt;</text>
@@ -113,7 +113,7 @@
 
   <!-- Line 7:   config: UserConfig; -->
   <text x="235" y="182" class="line-num" fill="#3A5A3C">7</text>
-  <text x="262" y="182" class="code" fill="#A8D4A2">  config</text>
+  <text x="262" y="182" class="code" fill="#8CB888">  config</text>
   <text x="312" y="182" class="code" fill="#7AA878">: </text>
   <text x="326" y="182" class="code" fill="#B8D880">UserConfig</text>
   <text x="392" y="182" class="code" fill="#7AA878">;</text>
@@ -143,21 +143,21 @@
   <!-- Line 11:   const state: AppState = { -->
   <text x="228" y="250" class="line-num" fill="#3A5A3C">11</text>
   <text x="262" y="250" class="code" fill="#9EE0A0">  const</text>
-  <text x="302" y="250" class="code" fill="#A8D4A2"> state</text>
+  <text x="302" y="250" class="code" fill="#8CB888"> state</text>
   <text x="340" y="250" class="code" fill="#7AA878">: </text>
   <text x="354" y="250" class="code" fill="#B8D880">AppState</text>
   <text x="412" y="250" class="code" fill="#7AA878"> = {</text>
 
   <!-- Line 12:     isRunning: true, -->
   <text x="228" y="267" class="line-num" fill="#3A5A3C">12</text>
-  <text x="262" y="267" class="code" fill="#A8D4A2">    isRunning</text>
+  <text x="262" y="267" class="code" fill="#8CB888">    isRunning</text>
   <text x="346" y="267" class="code" fill="#7AA878">: </text>
   <text x="360" y="267" class="code" fill="#B8D880">true</text>
   <text x="388" y="267" class="code" fill="#7AA878">,</text>
 
   <!-- Line 13:     users: new Map(), -->
   <text x="228" y="284" class="line-num" fill="#3A5A3C">13</text>
-  <text x="262" y="284" class="code" fill="#A8D4A2">    users</text>
+  <text x="262" y="284" class="code" fill="#8CB888">    users</text>
   <text x="304" y="284" class="code" fill="#7AA878">: </text>
   <text x="318" y="284" class="code" fill="#9EE0A0">new</text>
   <text x="340" y="284" class="code" fill="#8ACAB0"> Map</text>
@@ -165,7 +165,7 @@
 
   <!-- Line 14:     config, -->
   <text x="228" y="301" class="line-num" fill="#3A5A3C">14</text>
-  <text x="262" y="301" class="code" fill="#A8D4A2">    config</text>
+  <text x="262" y="301" class="code" fill="#8CB888">    config</text>
   <text x="312" y="301" class="code" fill="#7AA878">,</text>
 
   <!-- Line 15:   }; -->
@@ -174,15 +174,15 @@
 
   <!-- Line 16:   console.log("App started", state.isRunning); -->
   <text x="228" y="335" class="line-num" fill="#3A5A3C">16</text>
-  <text x="262" y="335" class="code" fill="#A8D4A2">  console</text>
+  <text x="262" y="335" class="code" fill="#8CB888">  console</text>
   <text x="318" y="335" class="code" fill="#7AA878">.</text>
   <text x="326" y="335" class="code" fill="#8ACAB0">log</text>
   <text x="348" y="335" class="code" fill="#7AA878">(</text>
   <text x="356" y="335" class="code" fill="#6AAA5A">"App started"</text>
   <text x="442" y="335" class="code" fill="#7AA878">, </text>
-  <text x="456" y="335" class="code" fill="#A8D4A2">state</text>
+  <text x="456" y="335" class="code" fill="#8CB888">state</text>
   <text x="492" y="335" class="code" fill="#7AA878">.</text>
-  <text x="500" y="335" class="code" fill="#A8D4A2">isRunning</text>
+  <text x="500" y="335" class="code" fill="#8CB888">isRunning</text>
   <text x="564" y="335" class="code" fill="#7AA878">);</text>
 
   <!-- Line 17: } -->
@@ -199,12 +199,12 @@
   <rect x="220" y="420" width="680" height="150" fill="#0C1610"/>
   <line x1="220" y1="420" x2="900" y2="420" stroke="#2A3E2C60" stroke-width="1"/>
   <text x="232" y="440" class="terminal-text" fill="#7AA878">$</text>
-  <text x="246" y="440" class="terminal-text" fill="#A8D4A2"> npm run dev</text>
+  <text x="246" y="440" class="terminal-text" fill="#8CB888"> npm run dev</text>
   <text x="232" y="458" class="terminal-text" fill="#7AA878"></text>
   <text x="232" y="476" class="terminal-text" fill="#7CB87A">&gt; eyerest-app@1.0.0 dev</text>
   <text x="232" y="494" class="terminal-text" fill="#7CB87A">&gt; ts-node src/app.ts</text>
   <text x="232" y="512" class="terminal-text" fill="#7AA878"></text>
-  <text x="232" y="530" class="terminal-text" fill="#A8D4A2">Server running on port 3000</text>
+  <text x="232" y="530" class="terminal-text" fill="#8CB888">Server running on port 3000</text>
   <text x="232" y="550" class="terminal-text" fill="#7AA878">$</text>
   <rect x="240" y="540" width="7" height="14" fill="#7CB87A" opacity="0.7"/>
 

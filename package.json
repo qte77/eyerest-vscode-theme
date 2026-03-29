@@ -4,6 +4,7 @@
   "description": "Eye-friendly VS Code themes for long sessions. Original palettes grounded in color science.",
   "version": "0.1.0",
   "publisher": "qte77",
+  "icon": "assets/logos/logo.png",
   "author": {
     "name": "qte77"
   },
@@ -51,14 +52,24 @@
         "path": "./themes/eyerest-green-light-color-theme.json"
       },
       {
-        "label": "EyeRest Amber Dark",
+        "label": "EyeRest BluBlock Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/eyerest-amber-dark-color-theme.json"
       },
       {
-        "label": "EyeRest Amber Light",
+        "label": "EyeRest BluBlock Light",
         "uiTheme": "vs",
         "path": "./themes/eyerest-amber-light-color-theme.json"
+      },
+      {
+        "label": "EyeRest Dusk Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eyerest-dusk-dark-color-theme.json"
+      },
+      {
+        "label": "EyeRest Dusk Light",
+        "uiTheme": "vs",
+        "path": "./themes/eyerest-dusk-light-color-theme.json"
       }
     ]
   }
