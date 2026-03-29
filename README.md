@@ -6,10 +6,10 @@ Eye-friendly VS Code themes for long sessions. Original palettes grounded in col
 
 ```bash
 # Direct install from GitHub Releases
-curl -fsSL https://github.com/qte77/eyerest-vscode-theme/releases/latest/download/eyerest-vscode-theme-0.1.0.vsix -o /tmp/eyerest.vsix && code --install-extension /tmp/eyerest.vsix
+curl -fsSL https://github.com/qte77/eyerest-vscode-theme/releases/latest/download/eyerest-vscode-theme-0.2.0.vsix -o /tmp/eyerest.vsix && code --install-extension /tmp/eyerest.vsix
 
 # From downloaded .vsix
-code --install-extension eyerest-vscode-theme-0.1.0.vsix
+code --install-extension eyerest-vscode-theme-0.2.0.vsix
 
 # From source
 make install

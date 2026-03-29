@@ -51,7 +51,9 @@ jobs:
         env:
           VERSION: ${{ steps.bump.outputs.current-version }}
         run: |
+          sudo apt-get install -y -qq librsvg2-bin
           npm install -g @vscode/vsce
+          make png
           VSIX_NAME="eyerest-vscode-theme-${VERSION}.vsix"
           make vsix-readme
           vsce package --readme-path vsix/README.vsix.md --allow-missing-repository -o "vsix/${VSIX_NAME}"
