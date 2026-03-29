@@ -4,7 +4,8 @@
 .DEFAULT_GOAL := help
 
 VSIX_DIR := vsix
-VSIX_NAME := eyerest-vscode-theme-0.1.0.vsix
+VERSION := $(shell node -p "require('./package.json').version")
+VSIX_NAME := eyerest-vscode-theme-$(VERSION).vsix
 VSIX_PATH := $(VSIX_DIR)/$(VSIX_NAME)
 VSIX_README := $(VSIX_DIR)/README.vsix.md
 
