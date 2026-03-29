@@ -5,11 +5,11 @@ Eye-friendly VS Code themes for long sessions. Original palettes grounded in col
 ## Install
 
 ```bash
-# From marketplace
-ext install qte77.eyerest-vscode-theme
+# From .vsix (download from GitHub Releases)
+code --install-extension vsix/eyerest-vscode-theme-0.1.0.vsix
 
-# From .vsix
-code --install-extension eyerest-vscode-theme-0.1.0.vsix
+# From source
+make install
 ```
 
 ## Variants
