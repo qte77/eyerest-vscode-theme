@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Security
+
+- Pin all GitHub Actions `uses:` refs in workflows to immutable full-length commit SHAs (tag kept as a comment)
+- Group Dependabot `github-actions` and `npm` updates by security vs. version, with CodeQL Action tracked separately
+
 ---
 
 ## [0.3.0] - 2026-03-29
