@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Bump and Release workflow builds the vsix on Node.js 24 (was 20)
+
 ### Security
 
 - Pin all GitHub Actions `uses:` refs in workflows to immutable full-length commit SHAs (tag kept as a comment)
