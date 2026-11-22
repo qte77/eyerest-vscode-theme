@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Claude Code `.claude/settings.json` sets `BASH_MAX_OUTPUT_LENGTH` to `15000` and
+  `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE` to `50` ([env vars](https://code.claude.com/docs/en/env-vars));
+  `.claude/scripts/statusline.sh` is refreshed from claude-code-plugins 60388b9e: it shows context
+  used and the autocompact point, and guards non-numeric input
 - Bump and Release workflow builds the vsix on Node.js 24 (was 20)
 
 ### Security
