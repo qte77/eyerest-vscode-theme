@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 
+- Bump and Release passes step outputs and the ref name to `run:` scripts through environment variables instead of `${{ }}` expansion (zizmor template-injection)
 - Pin all GitHub Actions `uses:` refs in workflows to immutable full-length commit SHAs (tag kept as a comment)
 - Group Dependabot `github-actions` and `npm` updates by security vs. version, with CodeQL Action tracked separately
 
